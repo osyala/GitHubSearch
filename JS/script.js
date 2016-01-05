@@ -4,7 +4,7 @@ window.onload = function(){
 
 
     var urlProfile = "https://api.github.com/users/"
-    var apiKey = "?access_token=bdf2d526211c8e37f4221c8d1ce5d33080992c78"
+    var apiKey = "?access_token=9ebae670d27b5028644ce5e039aa4eb867075530"
     // remember to remove 'osyala' after you get the search working
 
     console.log('JS still running')
@@ -48,7 +48,7 @@ window.onload = function(){
 
     var doAjaxProfile = function(){
         var q = inputKeyEvent()
-        var akParams = '?access_token=bdf2d526211c8e37f4221c8d1ce5d33080992c78'
+        var akParams = '?access_token=9ebae670d27b5028644ce5e039aa4eb867075530'
         var urlProfile = "https://api.github.com/users/" + q + akParams
         console.log(urlProfile)
         $.ajax(ajaxProfile)       
